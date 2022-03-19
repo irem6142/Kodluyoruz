@@ -21,8 +21,8 @@ body
 .loader span
 {
 	position: relative;
-	width: 250px;
-	height: 250px;
+	width: 500px;
+	height: 500px;
 	background:white;
 	border:6px solid white;
 	border-radius: 50%;
@@ -104,7 +104,7 @@ box-shadow: inset 10px 10px 20px rgba(0,0,0,0.5), inset -5px -5px 15px rgba(255,
 }
 .fa-star
 {
-	position: absolute;
+	position: relative;
 	top: calc(35px * var(--i));
 	left: calc(45px * var(--i));
 	font-size: 2em;
